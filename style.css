@@ -4,18 +4,15 @@ body{
     align-items: center;
     
 }
-
-.header{
-    
-    
-}
-.BannerText{
-    
+.text{
+  color: aliceblue;
+  font-size: 1.5rem;
+  text-align: center;
 }
 .New-text{
    color: aliceblue;
    font-size: 3rem;
-   
+   text-align: center;
 }
 .banner-img{
     height: 600px;
@@ -25,4 +22,5 @@ body{
     justify-content: center;
   align-items: center;
 }
+
 
