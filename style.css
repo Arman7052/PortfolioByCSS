@@ -1,26 +1,50 @@
-body{
-    margin-left: 50px;
-    margin-right: 50px;
-    align-items: center;
-    
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
 }
-.text{
+/* Header section */
+.text {
   color: aliceblue;
   font-size: 1.5rem;
   text-align: center;
 }
-.New-text{
-   color: aliceblue;
-   font-size: 3rem;
-   text-align: center;
+.New-text {
+  color: aliceblue;
+  font-size: 3rem;
+  text-align: center;
 }
-.banner-img{
-    height: 600px;
-    background: linear-gradient(rgb(0, 0, 0), rgba(178, 178, 192, 0.455)), url(./B9A1-New-Year-New-Mission/resources/BannerImage.png) no-repeat center center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
+.banner-img {
+  height: 600px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url(./B9A1-New-Year-New-Mission/resources/BannerImage.png) no-repeat center
+      center;
+  border-radius: 10px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
+/* ......................... */
 
+/* Catagory section */
 
+.catagory{
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+
+.discount{
+  padding-top: 1rem;
+  font-size: 50px;
+  color: red;
+}
+.cat-text1{
+  color: red;
+}
+.cat-text2{
+  font-size: 33px;
+}
+/* ............................. */
